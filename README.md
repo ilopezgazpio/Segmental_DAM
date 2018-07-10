@@ -17,7 +17,7 @@ path=..../path_to_stsbenchmark_folder
 glove=..../path_to_glove_folder
 
 
-python3 Preprocess_scripts/process-STSBenchmark.py 
+python3 Preprocess_scripts/process-STSBenchmark.py
     --data_folder ${path}
     --out_folder ${path}
 
@@ -51,7 +51,7 @@ done
 Launch the models:
 
 ```
-usage: DAM_STSBenchmark_TS_Segmental_MaxSpan.py [-h] 
+usage: DAM_STSBenchmark_TS_Segmental_MaxSpan.py [-h]
     [--train_file TRAIN_FILE]
     [--dev_file DEV_FILE]
     [--test_file TEST_FILE]
@@ -110,12 +110,13 @@ for i in range(len(test_batches)):
 ```
 
 # Serialized models
-Models can be downloaded from google drive (total of 1.2G)
 
-- DAM BoW: 
-- DAM CNN: 
-- DAM REC: 
-- DAM Seg: 
+- DAM BoW
+- DAM CNN
+- DAM REC
+- DAM Seg
+
+Models can be downloaded from google drive: https://drive.google.com/drive/folders/1wCv-ixku9bPm4qe_0MeylOxZ3xtF-8t6?usp=sharing
 
 # Acknowledgements
 
